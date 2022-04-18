@@ -268,7 +268,7 @@ class FileUtil(object):
 
         if isinstance(content, Response):
 
-            with open(filepath, mode=f'{mode}b+', encoding='utf-8') as f:
+            with open(filepath, mode=f'{mode}b+') as f:
                 for chunk in content.iter_content():
                     f.write(chunk)
                     f.flush()
