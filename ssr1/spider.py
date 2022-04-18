@@ -2,7 +2,7 @@
 # @Time     : 2022/4/15 17:32
 # @Author   : BGLB
 # @Software : PyCharm
-import os.path
+import os
 import traceback
 
 from core import Spider
